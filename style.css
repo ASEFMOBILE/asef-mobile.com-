@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+    header{
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        background-image: linear-gradient(#24252A #232423);
+        opacity: 86%;
+    }
+
+.ASEF-MOBILE{
+    font-size: 50px;
+    font-weight:bold;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: uppercase
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+
+}
+a,buttonte{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+button{
+    background-color: #0088a9cc;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+
+}
+nav li a:hover{
+    color: #c1c401;
+    transition: all 0.4s ease 0s;
+
+}
+button:hover{
+    background-color: rgb(147, 141, 141);
+}
+.logo img{
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+}
